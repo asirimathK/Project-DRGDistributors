@@ -1,0 +1,43 @@
+﻿<Window x:Class="DRGDistributors.View.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DRGDistributors.View"
+        mc:Ignorable="d"
+        Title="Login" Height="540" Width="450"
+        WindowStyle="none"
+        ResizeMode="NoResize"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStartupLocation="CenterScreen">
+    
+    <Border
+        CornerRadius="15"
+        BorderThickness="6"
+        >
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Violet" Offset="0"/>
+                    <GradientStop Color="Aqua" Offset="2.15"/>
+                </LinearGradientBrush>
+
+            </Border.BorderBrush>
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="Aqua" Offset="0"/>
+                <GradientStop Color="Violet" Offset="2.10"/>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+        </Grid>
+    </Border>
+ 
+</Window>
