@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DRGDistributors.View"
         mc:Ignorable="d"
-        Title="Login" Height="540" Width="450"
+        Title="Login" Height="440" Width="350"
         WindowStyle="none"
         ResizeMode="NoResize"
         Background="Transparent"
@@ -14,19 +14,19 @@
     
     <Border
         CornerRadius="15"
-        BorderThickness="6"
+        BorderThickness="3"
         >
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="Violet" Offset="0"/>
+                    <GradientStop Color="CadetBlue" Offset="0"/>
                     <GradientStop Color="Aqua" Offset="2.15"/>
                 </LinearGradientBrush>
 
             </Border.BorderBrush>
         <Border.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="Aqua" Offset="0"/>
-                <GradientStop Color="Violet" Offset="2.10"/>
+                <GradientStop Color="LightGray" Offset="0"/>
+                <GradientStop Color="LightBlue" Offset="1"/>
             </LinearGradientBrush>
         </Border.Background>
 
